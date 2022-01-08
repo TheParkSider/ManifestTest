@@ -8,10 +8,10 @@
     # RootModule = ''
     # NestedModules = @()
 
-    FunctionsToExport = @()
-    CmdletsToExport   = @()
+    FunctionsToExport = '*'
+    CmdletsToExport   = '*'
     VariablesToExport = '*'
-    AliasesToExport   = @()
+    AliasesToExport   = '*'
 
     PrivateData       = @{
         PSData = @{}
